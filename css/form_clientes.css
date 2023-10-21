@@ -472,23 +472,28 @@ div.modal {
     padding-bottom: 0.1rem;
 }
 
-@media (max-width: 767px) {
-    .form-group {
+@media (max-width: 1606px) {
+
+    /* .form-group {
         width: 100%;
     }
 
     .contenedor-form-2 {
         margin: 15%;
+    } */
+    .presente-estado .col-sm-9 h3 {
+        display: block !important;
     }
 }
 
 @media (min-width: 768px) {
-    .form-row {
+
+    /* .form-row {
         display: flex;
         justify-content: space-between;
     }
 
     .form-group {
         width: 48%;
-    }
+    } */
 }
